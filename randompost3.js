@@ -1,5 +1,5 @@
 jQuery(document).ready(function (e) {
-    e(".random-post").each(function () {
+    e(".random3-post").each(function () {
         e.ajax({
             url: "/feeds/posts/default?alt=json-in-script",
             type: "get",
@@ -21,7 +21,7 @@ jQuery(document).ready(function (e) {
                             };
                             q += "<a class=\"rdn-icon\" href=\"" + p + "\"></a>"
                         };
-                        e(".random-post").html(q)
+                        e(".random3-post").html(q)
                     }
                 })
             }

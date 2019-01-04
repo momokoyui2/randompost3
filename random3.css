@@ -1,4 +1,4 @@
 .random3-post{position:relative;display:inline-block;margin:0 5px;background:#fff;padding:14px 16px;font-size:1rem;border-radius:100%;box-shadow:0 2px 3px rgba(0,0,0,.06),0 2px 3px rgba(0,0,0,.1)}
-.random3-post a.rdn-icon{padding:14px 21px;font-size:1.2rem}
+.random3-post a.rdn-icon{cursor:pointer;display:block;padding:14px 16px;font-size:1.2rem}
 .random3-post a.rdn-icon:before{content:'\f074';font-family:'Font Awesome 5 Pro';font-size:16px}
 .random3-post a.rdn-icon:hover{background:#fff;color:#222;box-shadow:0 10px 21px rgba(0,0,0,.15),0 6px 6px rgba(0,0,0,.12)}
